@@ -1,0 +1,60 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven and Gradle directories
+target/
+build/
+
+# Logs
+*.log
+
+# Temporary files
+*.class
+*.swp
+*.swo
+*.DS_Store
+*.tmp
+*.bak
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Git
+**/.gitignore
+
+# Lombok generated files
+*.lombok.config
+
+# Spring Boot specific
+application.yml
+application.properties
+
+# Node modules
+node_modules/
+
+# IDE config files
+.vscode/
+.vscode/settings.json
+
+# OS-specific files
+.DS_Store
+
+# Test reports and results
+test-output/
+jacoco.exec
+test-results/
+build/test-results/
+build/reports/
+
+# Database files
+*.db
+*.h2.db
+*.mv.db
+
+# Other
+**/logs/
+!logs/
